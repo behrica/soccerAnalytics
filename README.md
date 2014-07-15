@@ -14,7 +14,7 @@ It is a standard shiny application, so can be started from the R console by runA
 
 ## How to use it
 
-The application allows to select a country you are interested in, and it show the some statistic on the goals and points the team scored in it history.
+The application allows to select a country you are interested in, and it shows the some statistics on the goals and points the team scored in its history.
 
 
 ## Dataset
