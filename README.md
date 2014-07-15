@@ -5,6 +5,7 @@ date: "07/15/2014"
 output: html_document
 ---
 
+
 # Purpose of the application
 
 This application shows some soccer statistics for a given country.
