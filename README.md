@@ -1,11 +1,3 @@
----
-title: "Soccer games analysis"
-author: "Carsten Behring"
-date: "07/15/2014"
-output: html_document
----
-
-
 # Purpose of the application
 
 This application shows some soccer statistics for a given country.
@@ -15,7 +7,7 @@ It is a standard shiny application, so can be started from the R console by runA
 
 ## How to use it
 
-The application allows to select a country you are interested in, and it shows the some statistics on the goals and points the team scored in its history.
+The application allows to select a country you are interested in, and it shows then some statistics about the goals and points the team scored in its history.
 
 
 ## Dataset
