@@ -2,8 +2,7 @@ library(shiny)
 library(googleVis)
 source("analysis.r")
 
-games <- read.csv(textConnection(rawToChar(getBinaryURL("https://raw.githubusercontent.com/codecentric/soccer-prediction-2014/master/1-merge-data/output/games.csv"))),sep = ";")
-
+games <- loadData()
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   

@@ -1,5 +1,10 @@
 library(RCurl)
 
+loadData <- function() {
+  read.csv(textConnection(rawToChar(getBinaryURL("https://raw.githubusercontent.com/codecentric/soccer-prediction-2014/master/1-merge-data/output/games.csv"))),sep = ";")
+  
+}
+
 countryStats <- function(country,games)  {
   results <- games[games$b_team_home==country | games$b_team_away==country ,c("b_team_home","b_team_away","r_goals_final_home","r_goals_final_away")]
   results <- results[complete.cases(results),]
