@@ -27,9 +27,9 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
-      textOutput("goals"),
+      strong(textOutput("goals")),
       plotOutput("plot.goals"),
-      textOutput("points"),
+      strong(textOutput("points")),
       plotOutput("plot.points")
     )
   )
