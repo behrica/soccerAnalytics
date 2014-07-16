@@ -1,5 +1,4 @@
 library(shiny)
-library(googleVis)
 source("analysis.r")
 
 games <- loadData()
