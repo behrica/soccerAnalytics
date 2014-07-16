@@ -5,6 +5,8 @@ shinyUI(fluidPage(
   
   # Application title
   titlePanel("Soccer team analysis"),
+  p("To get soccer statistics for the national team of a given country, please select the country in the drop down box."),
+  p("It will then show some statistics on frequencies of goals and match reuslts of teh selected team"),
   
   # Sidebar with a slider input for the number of bins
   sidebarLayout(
